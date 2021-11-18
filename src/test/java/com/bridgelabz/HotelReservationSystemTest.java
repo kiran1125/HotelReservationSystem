@@ -7,6 +7,6 @@ public class HotelReservationSystemTest {
     @Test
     public void givenHotelNameShouldReturnTrue() {
         HotelReservationSystem hotelReservationSystem = new HotelReservationSystem();
-        Assertions.assertTrue(hotelReservationSystem.addingHotelsToList("LakeWood"));
+        Assertions.assertTrue(hotelReservationSystem.checkHotelName("LakeWood"));
     }
 }
